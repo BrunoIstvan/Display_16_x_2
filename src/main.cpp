@@ -14,9 +14,9 @@ void setup() {
 void loop() {
   
   lcd.setCursor(2, 0);
-  lcd.print("LETICIA AMA");
+  lcd.print("PRIMEIRA LINHA");
   lcd.setCursor(1, 1);
-  lcd.print("PAPAI E MAMAE ");
+  lcd.print("SEGUNDA LINHA");
   delay(1000);
 
   move_palavras(3, 'R');
